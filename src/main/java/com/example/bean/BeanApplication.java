@@ -17,6 +17,9 @@ public class BeanApplication {
         System.out.println(person.getAddress().getStreet());//Fatih
         System.out.println(person.getContact().getOperator());//Turkcell
 
+        person.setAddress(new Address("Aydoğan",20));
+        System.out.println(person.getAddress().getStreet());//Aydoğan
+
     }
 
 }
